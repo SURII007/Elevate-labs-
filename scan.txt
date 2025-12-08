@@ -1,0 +1,21 @@
+# Nmap 7.95 scan initiated Mon Dec  8 11:43:48 2025 as: /usr/lib/nmap/nmap --privileged -sS -A -vv -oN scan.txt 192.168.92.128
+Nmap scan report for 192.168.92.128
+Host is up, received localhost-response (0.00011s latency).
+Scanned at 2025-12-08 11:43:49 EST for 2s
+All 1000 scanned ports on 192.168.92.128 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.95%E=4%D=12/8%OT=%CT=1%CU=34490%PV=Y%DS=0%DC=L%G=N%TM=69370047%P=x86_64-pc-linux-gnu)
+SEQ(CI=Z%II=I)
+T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 0 hops
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec  8 11:43:51 2025 -- 1 IP address (1 host up) scanned in 2.64 seconds
