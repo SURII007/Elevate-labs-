@@ -1,0 +1,132 @@
+CYBER SECURITY INTERNSHIP
+TASK 2: PHISHING EMAIL ANALYSIS REPORT
+Submitted by: [Your Name]
+Internship Platform: Elevate Labs
+--------------------------------------------
+
+OBJECTIVE:
+The main objective of this task is to analyze a suspicious email sample and identify phishing characteristics to understand how cyber attackers use email-based social engineering techniques to steal sensitive data.
+
+--------------------------------------------
+
+TOOLS USED:
+1. Sample Phishing Email (Text Format)
+2. Online Email Header Analyzer (MXToolbox)
+3. Web Browser for URL Inspection
+
+--------------------------------------------
+
+PHISHING EMAIL SAMPLE ANALYZED:
+
+Subject: Urgent: Your Bank Account Will Be Locked!
+Sender: support@hdfcbank-secure-alert.com
+
+Email Body:
+Dear Customer,
+
+Your account has been temporarily suspended due to suspicious activity.
+Verify your identity immediately to avoid permanent account closure.
+
+Click Here to Verify
+
+Failure to verify within 2 hours will result in account termination.
+
+Regards,
+HDFC Security Team
+
+--------------------------------------------
+
+PHISHING INDICATORS IDENTIFIED:
+
+1. Fake Sender Address (Email Spoofing)
+The email claims to be from HDFC Bank, but the sender’s domain
+"hdfcbank-secure-alert.com" is fake. Official HDFC emails only come from
+"hdfcbank.com". This confirms email spoofing.
+
+2. Urgent and Threatening Language
+The attacker creates fear using phrases such as:
+- "Account will be locked"
+- "Verify within 2 hours"
+- "Permanent closure"
+This forces the victim to act without thinking.
+
+3. Suspicious and Mismatched Link
+The email displays "Click Here to Verify" but the real URL redirects to:
+http://hdfc-login-secure.tk/verify
+This is a non-bank and unsafe domain.
+
+4. No Personal Identification
+The email starts with "Dear Customer" instead of using the customer’s real name,
+which legitimate banks always use.
+
+5. Grammar and Formatting Errors
+The email contains poor sentence structure and unprofessional layout, which is
+a common sign of phishing.
+
+6. Email Header Discrepancies
+Using an online header analyzer, the following issues were found:
+- Foreign IP address detected
+- SPF authentication failed
+- DKIM authentication failed
+This shows the email was sent from a fake server.
+
+7. Use of Social Engineering Techniques
+The attacker uses:
+- Fear
+- Urgency
+- Authority impersonation (Bank)
+
+--------------------------------------------
+
+FINAL VERDICT:
+This email is a CONFIRMED PHISHING ATTACK. It was created to steal the victim’s
+banking credentials, perform financial fraud, and conduct identity theft.
+
+--------------------------------------------
+
+LEARNING OUTCOMES:
+After completing this task, I gained hands-on experience in:
+- Detecting phishing attacks
+- Understanding email spoofing
+- Analyzing email headers
+- Identifying social engineering techniques
+- Cyber threat detection
+
+--------------------------------------------
+
+INTERVIEW QUESTIONS AND ANSWERS:
+
+1. What is phishing?
+Phishing is a cyber attack in which attackers trick users into giving their
+personal or financial information using fake emails or websites.
+
+2. How do you identify a phishing email?
+By checking suspicious sender address, urgent language, spelling mistakes,
+unknown links, and email headers.
+
+3. What is email spoofing?
+Email spoofing is when attackers fake the sender’s address to make the email
+appear legitimate.
+
+4. Why are phishing emails dangerous?
+They can steal passwords, bank details, and personal identity, causing financial
+loss and data breaches.
+
+5. How can you verify the sender’s authenticity?
+By checking the domain name, email headers, SPF/DKIM records, and official
+company website.
+
+6. What tools can analyze email headers?
+MXToolbox, Google Admin Toolbox, Mail Header Analyzer.
+
+7. What actions should be taken on phishing emails?
+- Do not click any links
+- Do not open attachments
+- Report the email as spam
+- Delete immediately
+
+8. How do attackers use social engineering in phishing?
+They manipulate emotions like fear, urgency, trust, and authority to trick
+victims.
+
+--------------------------------------------
