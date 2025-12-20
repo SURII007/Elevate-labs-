@@ -1,0 +1,151 @@
+CYBER SECURITY INTERNSHIP
+TASK 7 – IDENTIFY AND REMOVE SUSPICIOUS BROWSER EXTENSIONS
+Submitted by : Suresh Bishnoi
+------------------------------------------------------------
+
+OBJECTIVE:
+The objective of this task is to review installed browser extensions, identify
+potentially suspicious or unnecessary extensions, remove them, and understand
+how malicious browser extensions can pose security risks to users.
+
+------------------------------------------------------------
+
+TOOLS USED:
+Web Browser – Google Chrome / Mozilla Firefox
+
+------------------------------------------------------------
+
+BROWSER EXTENSION REVIEW PROCESS:
+
+1. Opened the browser extension/add-ons manager.
+2. Reviewed all installed extensions one by one.
+3. Checked permissions requested by each extension.
+4. Verified developer information and user reviews.
+5. Identified unused, unnecessary, or suspicious extensions.
+6. Removed suspicious or unused extensions.
+7. Restarted the browser to apply changes.
+8. Observed improved browser performance and security.
+
+------------------------------------------------------------
+
+EXTENSIONS REVIEWED:
+
+1. Google Docs Offline
+Purpose: Allows offline document editing.
+Status: Safe
+Action Taken: Kept
+
+------------------------------------------------------------
+
+2. Ad Blocker Extension
+Purpose: Blocks advertisements.
+Permissions: Access to all websites.
+Status: Trusted (installed from official store with good reviews)
+Action Taken: Kept
+
+------------------------------------------------------------
+
+3. Free PDF Converter (Suspicious)
+Purpose: Unknown / unnecessary
+Permissions:
+- Read and change all data on websites
+- Access browsing history
+Issues Identified:
+- Excessive permissions
+- Poor user reviews
+- Not actively used
+Action Taken: Removed
+
+------------------------------------------------------------
+
+4. Video Downloader Plus (Suspicious)
+Purpose: Download online videos
+Permissions:
+- Full access to browsing data
+Issues Identified:
+- High-risk permissions
+- Reports of data tracking
+Action Taken: Removed
+
+------------------------------------------------------------
+
+EXTENSIONS REMOVED:
+- Free PDF Converter
+- Video Downloader Plus
+
+------------------------------------------------------------
+
+IMPACT AFTER REMOVAL:
+
+- Improved browser startup speed
+- Reduced background activity
+- Enhanced privacy and security
+- Lower risk of data leakage
+
+------------------------------------------------------------
+
+HOW MALICIOUS EXTENSIONS CAN HARM USERS:
+
+- Steal passwords and sensitive data
+- Track browsing activity
+- Inject malicious ads
+- Redirect users to fake websites
+- Download malware in background
+
+------------------------------------------------------------
+
+SAFE PRACTICES FOR USING BROWSER EXTENSIONS:
+
+- Install extensions only from official stores
+- Check permissions carefully before installing
+- Read user reviews and ratings
+- Remove unused extensions regularly
+- Keep extensions updated
+- Avoid extensions with excessive permissions
+
+------------------------------------------------------------
+
+INTERVIEW QUESTIONS AND ANSWERS:
+
+1. How can browser extensions pose security risks?
+They can access sensitive data, track activity, inject ads, or steal credentials.
+
+2. What permissions should raise suspicion?
+Access to all websites, browsing history, passwords, and background data.
+
+3. How to safely install browser extensions?
+Install only from official stores and check reviews and permissions.
+
+4. What is extension sandboxing?
+It is a security mechanism that isolates extensions from critical browser processes.
+
+5. Can extensions steal passwords?
+Yes, malicious extensions can capture keystrokes or access stored credentials.
+
+6. How to update extensions securely?
+Enable automatic updates from the official browser store.
+
+7. Difference between extensions and plugins?
+Extensions enhance browser features, while plugins handle specific content types.
+
+8. How to report malicious extensions?
+Report directly through the browser’s extension store or security reporting tools.
+
+------------------------------------------------------------
+
+LEARNING OUTCOMES:
+
+- Learned how to review browser extensions securely
+- Identified risks associated with malicious extensions
+- Understood permission-based security concerns
+- Improved browser security awareness
+
+------------------------------------------------------------
+
+TASK STATUS:
+COMPLETED SUCCESSFULLY ✅
+
+GITHUB REPOSITORY LINK:
+[Paste your GitHub repo link here]
+
+------------------------------------------------------------
