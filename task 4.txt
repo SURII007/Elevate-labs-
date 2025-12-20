@@ -1,0 +1,161 @@
+CYBER SECURITY INTERNSHIP
+TASK 4 – SETUP AND USE A FIREWALL ON LINUX
+Submitted by: Suresh Bishnoi
+------------------------------------------------------------
+
+OBJECTIVE:
+The objective of this task is to configure and test basic firewall rules on a Linux system
+using UFW (Uncomplicated Firewall) to allow or block network traffic and understand how
+firewalls filter incoming and outgoing connections.
+
+------------------------------------------------------------
+
+TOOL USED:
+UFW (Uncomplicated Firewall) – Linux Firewall Management Tool
+
+OPERATING SYSTEM:
+Linux (Ubuntu / Kali / Parrot OS)
+
+------------------------------------------------------------
+
+FIREWALL CONFIGURATION STEPS PERFORMED:
+
+1. Checked Firewall Status
+Command Used:
+sudo ufw status
+
+Result:
+Firewall was inactive initially.
+
+------------------------------------------------------------
+
+2. Enabled UFW Firewall
+Command Used:
+sudo ufw enable
+
+Result:
+Firewall successfully enabled.
+
+------------------------------------------------------------
+
+3. Listed Current Firewall Rules
+Command Used:
+sudo ufw status numbered
+
+Result:
+No active rules were configured initially.
+
+------------------------------------------------------------
+
+4. Added Rule to Block Telnet (Port 23)
+Reason:
+Telnet is insecure because it sends data in plain text.
+
+Command Used:
+sudo ufw deny 23
+
+Result:
+Inbound traffic on port 23 was blocked successfully.
+
+------------------------------------------------------------
+
+5. Allowed SSH (Port 22)
+Reason:
+SSH is required for secure remote access.
+
+Command Used:
+sudo ufw allow 22
+
+Result:
+Secure SSH access allowed.
+
+------------------------------------------------------------
+
+6. Tested Firewall Rule
+Test Method:
+Attempted connection to blocked port 23.
+
+Result:
+Connection was refused, confirming firewall rule worked.
+
+------------------------------------------------------------
+
+7. Removed Test Block Rule
+Command Used:
+sudo ufw delete deny 23
+
+Result:
+Firewall restored to original secure configuration.
+
+------------------------------------------------------------
+
+8. Final Firewall Status
+Command Used:
+sudo ufw status
+
+Active Rules:
+- Allow SSH (Port 22)
+
+------------------------------------------------------------
+
+HOW FIREWALL FILTERS NETWORK TRAFFIC:
+
+A firewall acts as a security barrier between trusted and untrusted networks.
+It monitors inbound and outbound traffic based on predefined rules and blocks
+unauthorized access while allowing legitimate communication.
+
+------------------------------------------------------------
+
+SECURITY BENEFITS OBSERVED:
+
+- Blocks unauthorized access
+- Prevents exploitation of insecure services
+- Reduces attack surface
+- Improves overall network security
+
+------------------------------------------------------------
+
+INTERVIEW QUESTIONS AND ANSWERS:
+
+1. What is a firewall?
+A firewall is a security system that monitors and controls incoming and outgoing
+network traffic based on predefined rules.
+
+2. Difference between stateful and stateless firewall?
+A stateless firewall filters packets based on rules only, while a stateful firewall
+tracks active connections and makes decisions based on session state.
+
+3. What are inbound and outbound rules?
+Inbound rules control incoming traffic, while outbound rules control traffic leaving
+the system.
+
+4. How does UFW simplify firewall management?
+UFW provides easy-to-use commands to manage complex firewall rules without deep
+iptables knowledge.
+
+5. Why block port 23 (Telnet)?
+Telnet transmits data in plain text and is vulnerable to interception attacks.
+
+6. What are common firewall mistakes?
+- Leaving unnecessary ports open
+- Blocking essential services
+- Misconfigured rules
+- Not enabling the firewall
+
+7. How does a firewall improve network security?
+It prevents unauthorized access, blocks malicious traffic, and protects system
+resources.
+
+8. What is NAT in firewalls?
+NAT (Network Address Translation) hides internal IP addresses and enhances security
+by controlling traffic routing.
+
+------------------------------------------------------------
+
+TASK STATUS:
+COMPLETED SUCCESSFULLY ✅
+
+GITHUB REPOSITORY LINK:
+[Paste your GitHub repo link here]
+
+------------------------------------------------------------
