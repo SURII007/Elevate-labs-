@@ -1,0 +1,27 @@
+CYBER SECURITY INTERNSHIP
+TASK 6 – CREATE A STRONG PASSWORD AND EVALUATE ITS STRENGTH
+Submitted by: Suresh Bishnoi
+------------------------------------------------------------
+
+OBJECTIVE:
+The objective of this task is to understand what makes a password strong,
+evaluate different passwords using online password strength tools, and
+learn best practices to protect against common password attacks.
+
+------------------------------------------------------------
+
+TOOLS USED:
+Online Password Strength Checker (PasswordMeter.com)
+
+------------------------------------------------------------
+
+PASSWORDS CREATED FOR TESTING:
+
+Password 1:
+password123
+
+Password 2:
+Password@123
+
+Password 3:
+P@
